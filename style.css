@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    height: 1100px;
+    
+}
+
+@media(max-width:8000px) and (min-width:992px)
+{
+   /* width */
+::-webkit-scrollbar {
+     
+    width: 11px;
+ }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(36, 35, 35);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 15px;
+    background-color: rgb(167, 166, 166);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(211, 211, 211);
+    
+  }
+  button:hover , button:active , button:focus{
+    outline: 0 !important;
+}
+ 
+}
+@media(max-width:992px) and (min-width:100px)
+{
+       /* width */
+::-webkit-scrollbar {
+    
+    width: 0px;
+ }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(36, 35, 35);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 15px;
+    background-color: rgb(167, 166, 166);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(211, 211, 211);
+    
+  }
+  button:hover , button:active , button:focus{
+    outline: 0 !important;
+}
+}
+
+
+.gray{
+    color: rgb(46, 46, 46);
+}
+
+.A:hover{
+    color:red ;
+    transition: all 0.2s;
+}
+.btn:hover{
+    opacity: 90%;
+    transition: all 0.2s;
+    
+}
+
+.A{
+    color: rgb(56, 56, 56);
+    
+}
+.C{
+    cursor: pointer;
+    overflow: hidden;
+}
+.CC{
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.C:hover img{
+    transform: scale(1.1);
+    filter: brightness(70%);
+    
+}
+.card img{
+    transition: all 0.7s ease-in-out;
+}
+
+.BTN{
+    background-color: rgb(54, 54, 54);
+}
+.BTN:hover{
+    background-color: rgb(77, 77, 77);
+}
+.H{
+    height: 100px;
+}
+.T{
+    color: rgb(177, 177, 177);
+    cursor: pointer;
+}
+.T:hover{
+    color: rgb(0, 0, 0);
+}
+.G{
+    background-color: rgb(32, 32, 32);
+}
+.FONT{
+    font-size: small;
+}
+.Z{
+    z-index: 99;
+}
+.Z1{
+    z-index: 98;
+}
+.B{
+    background: rgb(44, 44, 44); 
+}
+.RED{
+    color: rgb(46, 46, 46);
+    
+}
+.RED:hover{
+    color: rgb(255, 55, 55);
+    transition: all 0.3s ease-in-out;  
+}
+img{
+    overflow: hidden;
+   
+}
+.PO{
+    top: 40px;
+    left: 45px;
+}
+.noborder{
+    border: none;
+}
+.box{
+    width: 70px;
+    height: 17px;
+    background-color: grey;
+    border-radius: 20px;
+}
+.dark-bg{
+    background-color: #888;
+}
+.bg{
+    background-image: url(1.jpg);
+}
+.SHIRI{
+    color: rgb(194, 194, 194);
+}
+.w-80{
+    width: 180px;
+}
+.khat{
+    width: 50px;
+    height: 4px;
+    background-color: rgb(216, 0, 0);
+    border-radius: 5px;
+}
+.MARGIN{
+    margin-top: 80px;
+}
+.offcanvas-end{
+    background-color: antiquewhite;
+}
+.box-1{
+    background-color: grey;
+    border-radius: 20px;
+    
+    width: 80px;
+    height: 3px;
+}
+.BORDER{
+    border: 0px !important;
+}
+.AA{
+    color: rgb(58, 58, 58);
+}
+.AA:hover{
+    color:red ;
+    transition: all 0.2s;
+}
+.nav .box-hover{
+    width: 470px;
+    height: 285px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 42px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s all ease-in-out;
+    cursor: default;
+    white-space: nowrap;
+  }
+  .nav .NAV:hover + .box-hover,.nav .box-hover:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .WHITE-50{
+    color: rgb(209, 209, 209);
+  }
+  .PLACE-HOLDER{
+    
+    color: black;
+  }
+  .PLACE-HOLDER::placeholder{
+    
+    color: gray;
+  }
+  .PLACE-HOLDER:focus{
+    
+    background: rgb(255, 255, 255); 
+    
+  }
+  .MIN-HEIGHT1{
+    min-height: 120px;
+  }
+  .MIN-HEIGHT2{
+    min-height: 115px;
+  }
+  .h-95{
+    height: 95% !important;
+  }
+  .W-10{
+    width: 5% !important;
+  }
+  .Z-1{
+    z-index: -1;
+  }
+
+.aksa{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width:772px) 
+{ 
+    .aksa
+    {
+        height: 50%    ;
+        margin-left: 10px;
+    }
+}
+.L{
+    background-color: whitesmoke;
+}
+ 
