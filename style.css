@@ -270,3 +270,21 @@ img{
 .SHADOW{
     box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
+
+#progress-container {
+    width: 100%;
+    
+    position: fixed;
+    top: 80px;
+    z-index: 9999;
+    transition: 0.2s;
+    overflow: hidden;
+    height: 4px;
+    padding: 0;
+}
+
+#progress-bar {
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(to right , rgb(250, 0, 42) , rgb(251, 255, 0));
+}
