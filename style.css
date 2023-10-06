@@ -267,4 +267,6 @@ img{
 .L{
     background-color: whitesmoke;
 }
- 
+.SHADOW{
+    box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
