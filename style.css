@@ -272,8 +272,7 @@ img{
 }
 
 #progress-container {
-    width: 100%;
-    
+    width: 2000px;
     position: fixed;
     top: 80px;
     z-index: 9999;
