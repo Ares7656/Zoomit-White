@@ -454,3 +454,4 @@ transition: all 0.2s;
   .input:checked + .slider:before {
     transform: translateX(30px);
   }
+  
